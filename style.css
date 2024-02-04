@@ -466,6 +466,8 @@ nav a {
     display: none;
   }
 
+  /* Zonder ID en of Class kreeg ik hem niet werkend dus heb een class en ID gebruikt om het aan te sturen anders werrdt de code te lang en wist het systeem niet waar die heen moest. */
+
   #slide1:checked ~ .carousel .carousel-slides {
     transform: translateX(0);
   }
